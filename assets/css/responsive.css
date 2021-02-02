@@ -1,0 +1,58 @@
+@media (min-width:300px) {}
+
+@media (min-width:640px) {
+    .AsideInfo>* {
+        margin: 27.5px 15px;
+    }
+
+    .AsideMat .uk-subnav > * > :first-child {
+        font-size: .7rem;
+    }
+
+    .AsideCopy {
+        margin-top: 70px;
+    }
+
+    .AsideCopy small {
+        font-size: 60%;
+    }
+
+    .uk-text-lead {
+        line-height: 0;
+    }
+
+    .uk-text-lead sub {
+        display: inline-block;
+    }
+}
+
+@media (min-width:960px) {}
+
+@media (min-width:1200px) {}
+
+@media (min-width:1600px) {
+
+    .AsideInfo>* {
+        margin: 27.5px 30px;
+    }
+
+    .AsideMat .uk-subnav > * > :first-child {
+        font-size: .875rem;
+    }
+
+    .AsideCopy {
+        margin-top: 140px !important;
+    }
+
+    .AsideCopy small {
+        font-size: 80%;
+    }
+
+    .uk-text-lead {
+        line-height: 1.5;
+    }
+
+    .uk-text-lead sub {
+        display: inline;
+    }
+}

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300;400;700&display=swap');
+
+body,
+h1,
+h2,
+.uk-button {
+    font-family: 'Bellota Text', cursive;
+}
+
+h1,
+h2 {
+    font-weight: 300;
+}
+
+.Content {
+    height: 100vh;
+    overflow-y: scroll;
+    scrollbar-color: black white;
+    scrollbar-width: thin;
+}
+
+.Content::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.Content::-webkit-scrollbar-track-piece {
+    background-color: white;
+}
+
+.Content::-webkit-scrollbar-thumb {
+    background-color: black;
+    border: 1px solid white;
+}
+
+aside {
+    height: 100vh;
+    background-color: black;
+    overflow-y: auto;
+}
+
+aside a {
+    color: white;
+}
+
+aside a:focus,
+aside a:hover {
+    color: #ccc;
+    text-decoration: none;
+}
+
+aside .uk-subnav>*>a:focus,
+aside .uk-subnav>*>a:hover,
+aside .uk-nav-primary>li>a:focus,
+aside .uk-nav-primary>li>a:hover,
+aside .uk-nav-primary .uk-nav-sub a:hover {
+    color: white;
+}
+
+/* .AsideInfo {
+    min-height: 80px;
+} */
+
+.ProductH2 {
+    padding: 15px 15px;
+}
+
+.ProductH2 h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+}
+
+.ProductInfo a {
+    color: black;
+    border-bottom: 1px dotted black;
+}
+
+.ProductInfo a:hover {
+    text-decoration: none;
+    border-bottom: 1px dotted #1e87f0;
+}
+
+.uk-text-lead {
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+}
+
+sub {
+    font-size: 1rem;
+    font-weight: normal;
+}
